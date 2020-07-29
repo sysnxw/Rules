@@ -5209,7 +5209,6 @@
 - DOMAIN-SUFFIX,m.xxkio.com,AdBlock
 - DOMAIN-SUFFIX,m.yalayi.com,AdBlock
 - DOMAIN-SUFFIX,m.yangjingbang.net,AdBlock
-- DOMAIN-SUFFIX,m.yap.yahoo.com,AdBlock
 - DOMAIN-SUFFIX,m.yicang8.com,AdBlock
 - DOMAIN-SUFFIX,m.yingchengtou.com,AdBlock
 - DOMAIN-SUFFIX,m.ynnke.com,AdBlock
@@ -8701,20 +8700,6 @@
 - DOMAIN-SUFFIX,viu.tv,GlobalTV
 - DOMAIN-SUFFIX,viu.now.com,GlobalTV
 
-# > Youtube Music
-# - USER-AGENT,*YouTubeMusic*,GlobalTV
-# - USER-AGENT,*com.google.ios.youtubemusic*,GlobalTV
-
-# > Youtube
-# - USER-AGENT,*youtube*,GlobalTV
-# - USER-AGENT,YouTube*,GlobalTV
-- DOMAIN-KEYWORD,youtube,GlobalTV
-- DOMAIN,yt3.ggpht.com,GlobalTV
-- DOMAIN-SUFFIX,googlevideo.com,GlobalTV
-- DOMAIN-SUFFIX,gvt2.com,GlobalTV
-- DOMAIN-SUFFIX,youtu.be,GlobalTV
-- DOMAIN-SUFFIX,ytimg.com,GlobalTV
-
 
 
 # > Netflix
@@ -9607,6 +9592,21 @@
 - DOMAIN-SUFFIX,spotify.com,Spotify
 - DOMAIN-SUFFIX,spotifycdn.net,Spotify
 
+# > Youtube Music
+# - USER-AGENT,*YouTubeMusic*,Youtube
+# - USER-AGENT,*com.google.ios.youtubemusic*,Youtube
+
+# > Youtube
+# - USER-AGENT,*youtube*,Youtube
+# - USER-AGENT,YouTube*,Youtube
+- DOMAIN-KEYWORD,youtube,Youtube
+- DOMAIN,yt3.ggpht.com,Youtube
+- DOMAIN-SUFFIX,googlevideo.com,Youtube
+- DOMAIN-SUFFIX,gvt2.com,Youtube
+- DOMAIN-SUFFIX,youtu.be,Youtube
+- DOMAIN-SUFFIX,ytimg.com,Youtube
+
+
 
 # > Telegram
 - DOMAIN-SUFFIX,t.me,Telegram
@@ -9936,7 +9936,7 @@
 - DOMAIN-SUFFIX,gvt0.com,Proxy
 - DOMAIN-SUFFIX,gvt1.com,Proxy
 - DOMAIN-SUFFIX,helpshift.com,Proxy
-- DOMAIN-SUFFIX,hinet.net,Proxy
+- DOMAIN-SUFFIX,hitun.io,Proxy
 - DOMAIN-SUFFIX,hockeyapp.net,Proxy
 - DOMAIN-SUFFIX,homedepot.com,Proxy
 - DOMAIN-SUFFIX,hootsuite.com,Proxy
@@ -10606,6 +10606,8 @@
 - DOMAIN-SUFFIX,lxdns.com,Domestic
 - DOMAIN-SUFFIX,mai.tn,Domestic
 - DOMAIN-SUFFIX,meizu.com,Domestic
+- DOMAIN-SUFFIX,metatrader4.com,Domestic
+- DOMAIN-SUFFIX,metatrader5.com,Domestic
 - DOMAIN-SUFFIX,mi.com,Domestic
 - DOMAIN-SUFFIX,miaopai.com,Domestic
 - DOMAIN-SUFFIX,miui.com,Domestic
